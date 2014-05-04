@@ -1,6 +1,6 @@
 # Parameters for ngircd
 
-class ngircd::param(
+class ngircd::param (
 ) {
 
   case $::osfamily {
@@ -16,3 +16,4 @@ class ngircd::param(
   }
 
 }
+
