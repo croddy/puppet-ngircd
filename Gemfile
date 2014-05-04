@@ -7,10 +7,10 @@ else
 end
 
 group :test do
-  gem 'rake'
-  gem 'puppet-lint'
-  gem 'rspec-puppet'
   gem 'puppet', puppetversion
-  gem 'rubocop'
+  gem 'rake'
+  gem 'rspec'
+  gem 'rspec-puppet'
+  gem 'puppet-lint'
+  gem 'puppet-syntax'
 end
-

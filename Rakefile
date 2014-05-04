@@ -2,11 +2,7 @@ require 'rake'
 require 'rspec/core'
 require 'rspec/core/rake_task'
 require 'puppet-lint/tasks/puppet-lint'
-require 'rubocop/rake_task'
-
-task :default => [:lint, :rubycop]
-
-Rubocop::RakeTask.new
+require 'puppet-syntax/tasks/puppet-syntax'
 
 desc "Clean Up"
 task :clean do
