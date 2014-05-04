@@ -14,4 +14,3 @@ before_install:
 
 script:
   - bundle exec rake lint
-  - bundle exec puppet parser validate
