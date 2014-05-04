@@ -1,3 +1,5 @@
+# Defined type for IRC channel.
+
 define ngircd::channel(
   $topic = undef,
   $modes = undef,

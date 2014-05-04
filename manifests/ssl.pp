@@ -7,7 +7,9 @@ define ngircd::ssl(
   $ciphers = [ 'SECURE128' ],
   $dhfile = undef,
   $ports = [],
-) inherits ngircd {
+) {
+
+  include 'ngircd'
 
   concat::fragment { 'ssl':
     target  => $::ngircd::param::config_file,

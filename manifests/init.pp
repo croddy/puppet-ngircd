@@ -44,7 +44,9 @@ class ngircd(
   $dns = 'yes',
   $help_file = '/usr/share/doc/ngircd-21/Commands.txt',
   $ident = 'yes',
-) inherits ngircd::param {
+) {
+
+  include 'ngircd::param'
 
   package { $::ngircd::param::package_name:
     ensure => latest,
