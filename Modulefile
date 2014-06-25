@@ -1,5 +1,5 @@
 name    'nkts-ngircd'
-version '0.1.0'
+version '0.1.1'
 source 'https://github.com/nkts/puppet-ngircd.git'
 author 'nkts'
 license 'Apache License, Version 2.0'
