@@ -36,6 +36,7 @@
 class ngircd(
   $server_name = $::fqdn,
   $ports = [ 6667 ],
+  $listen = '127.0.0.1',
   $info = '',
   $motd = '',
   $ipv6 = 'yes',
