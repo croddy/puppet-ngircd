@@ -13,7 +13,7 @@ class ngircd::param (
     'Gentoo': {
       $service_name = 'ngircd'
       $package_name = 'ngircd'
-      $config_file = '/etc/ngircd.conf'
+      $config_file = '/etc/ngircd/ngircd.conf'
       $group = 'ngircd'
     }
     default: {
