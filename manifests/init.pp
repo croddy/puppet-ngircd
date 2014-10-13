@@ -39,6 +39,7 @@ class ngircd(
   $listen = '127.0.0.1',
   $info = '',
   $motd = '',
+  $network = 'abba',
   $ipv6 = 'yes',
   $ipv4 = 'yes',
   $allowed_channel_types = '#',

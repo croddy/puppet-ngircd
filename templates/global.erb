@@ -6,13 +6,13 @@
   HelpFile = <%= @help_file %>
   Info = <%= @info %>
   Listen = <%= @listen %>
-  ;MotdFile = 
+  ;MotdFile =
   MotdPhrase = <%= @motd %>
   PidFile = /var/run/ngircd/ngircd.pid
   Ports = <%= @ports.join(',') %>
   ServerGID = ngircd
   ServerUID = ngircd
-  Network = abba
+  Network = <%= @network %>
 
 [Limits]
   ConnectRetry = 60
