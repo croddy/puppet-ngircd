@@ -10,6 +10,7 @@ define ngircd::server(
   $group = '1',
   $service_mask = undef,
   $ssl = 'no',
+  $pam = 'no',
 ) {
 
   concat::fragment { "server_${name}":
