@@ -46,6 +46,7 @@ class ngircd(
   $dns = 'yes',
   $help_file = '/usr/share/doc/ngircd-21/Commands.txt',
   $ident = 'yes',
+  $pam = 'no',
 ) {
 
   include 'ngircd::param'
