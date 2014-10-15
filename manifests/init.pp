@@ -38,6 +38,7 @@ class ngircd(
   $ports = [ 6667 ],
   $listen = '127.0.0.1',
   $info = '',
+  $max_connections_ip = 0,
   $motd = '',
   $motdfile = '',
   $network = 'abba',
