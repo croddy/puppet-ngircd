@@ -39,6 +39,7 @@ class ngircd(
   $listen = '127.0.0.1',
   $info = '',
   $max_connections_ip = 0,
+  $max_nick_length = 9,
   $motd = '',
   $motdfile = '',
   $network = 'abba',
